@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 In the `config.json` file, you can specify:
 
-- `prompt': This prompt will be used to instruct the LLM on how to translate the text. You can customize it to fit your needs.
+- `prompt`: This prompt will be used to instruct the LLM on how to translate the text. You can customize it to fit your needs.
 
 
 - `models`: A list of configurations for available LLM models. Each object must include:
