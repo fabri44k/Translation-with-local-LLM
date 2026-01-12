@@ -1,7 +1,5 @@
 altro/*
 
-startFlask.bat
-
 pycache/
 *.pyc
 __pycache__/*

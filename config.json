@@ -2,7 +2,7 @@
     "prompt": "You are an expert native translator with deep cultural knowledge of both source and target languages. Your task is to provide a perfect and faithful translation of the following text into {language}.\\n\\nText to translate:\\n{text}\\n\\nTranslation guidelines:\\n1. **Accuracy**: Preserve 100% of the original meaning, including nuances and subtleties.\\n2. **Naturalness**: The translation should read as if originally written in {language} by a professional.\\n3. **Adaptation**:\\n   - Localize idioms, metaphors and cultural references appropriately.\\n   - Adjust measurements, dates and formats to target language standards.\\n4. **Consistency**:\\n   - Maintain consistent terminology throughout.\\n   - Preserve the original text's register (formal/informal) and tone.\\n5. **Completeness**: Never omit or add content unless absolutely required for clarity in the target language.\\n6. **Language Style**: Use strong, informal or slang expressions if the original text does — mirror the tone.\\n7. **PRESERVE FORMATTING EXACTLY AS-IS**:\\n   - DO NOT REMOVE or alter:\\n     - **Markdown** (e.g., `**bold**`, `*italic*`, `- lists`, etc.)\\n     - `LaTeX` (e.g., `$$`, `\\\\commands`)\\n     - `inline code` (e.g., \\\\`code\\\\`)\\n     - ```code blocks``` (e.g., triple backticks)\\n     - `<HTML tags>`\\n   - Reproduce all formatting symbols exactly as they appear in the original text.\\n   - Treat formatting as **sacred** and **non-negotiable**.\\n8. **Language constraint**: Translate entirely and exclusively into {language}.\\n\\nOutput requirements:\\n- Output ONLY the final polished translation in {language}.\\n- NO commentary, NO explanations.\\n- NO additional text, just the translation!\\n- Preserve all formatting and structure exactly (paragraphs, line breaks, lists, headers, etc.).",
     "models": [
         {
-            "name": "gemma3",
+            "name": "gemma3:4b",
             "max_word_for_prompt": 410,
             "temperature": 0.4,
             "thinking_enabled": false
@@ -12,12 +12,6 @@
             "max_word_for_prompt": 170,
             "temperature": 0.4,
             "thinking_enabled": false
-        },
-        {
-            "name": "goekdenizguelmez/JOSIEFIED-Qwen3:4b",
-            "max_word_for_prompt": 410,
-            "temperature": 0.4,
-            "thinking_enabled": true
         }
     ]
 }
